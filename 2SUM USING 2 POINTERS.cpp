@@ -11,15 +11,14 @@ string Sum2(vector<int>a,int sum){
  int start=0;
  int end=a.size()-1;
  while(start<=end){
-     if(start==end)
-     return "NO";
+     if(a[start]+a[end]==sum)
+     return "YES";
      else if(a[start]+a[end]<sum)
      start++;
-     else if(a[start]+a[end]>sum)
+     else 
      end--;
-     else
-     return "YES";
  }
+    return "NO";
 }
 int main() {
    int n,element,sum;
