@@ -1,4 +1,6 @@
-// Online C++ compiler to run C++ program online
+// TC: O(2N)--> IF MAJOR ELEMENT MAY NOT EXIST 
+     //  O(N) --> IF MAJOR ELEMENT EXIST FOR SURE
+//SC O(1)
 #include <iostream>
 #include<vector>
 #include<map>
